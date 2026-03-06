@@ -24,6 +24,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  gap: 100px;
 }
 
 .container {
@@ -114,4 +115,33 @@ body {
   font-weight: 600;
   color: #3db370;
   cursor: pointer;
+}
+
+.footer {
+  padding: 40px 0;
+  background: #16133d;
+}
+
+.logo_footer {
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+.social {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+.social__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 5px;
+  background: #EFEEF3;
+}
+.social__link:hover .social__icon {
+  fill: #3DB370;
 }/*# sourceMappingURL=main.css.map */
